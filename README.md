@@ -28,7 +28,7 @@ SkyAPM C#/.NET instrument agent
 > MyGet feed URL https://www.myget.org/F/skyapm-dotnet/api/v3/index.json
 
 # Supported
-- This project currently supports apps targeting netcoreapp2.0/netframework4.6.1 or higher.
+- This project currently supports apps targeting netcoreapp3.1、net5.0、net6.0 or higher.
 - [Supported middlewares, frameworks and libraries.](docs/Supported-list.md)
 
 # Features
@@ -95,9 +95,6 @@ Use `dotnet skyapm config [your_service_name] [your_servers]` to generate config
 ```
 dotnet skyapm config sample_app 192.168.0.1:11800
 ```
-
-# Roadmap
-[What are we going to do next?](/docs/roadmap.md)
 
 # Contributing
 This section is in progress here: [Contributing to SkyAPM-dotnet](/CONTIBUTING.md)
